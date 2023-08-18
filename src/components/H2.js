@@ -1,1 +1,1 @@
-export const H2 = ({label}) => <h1>{label}</h1>;
+export const H2 = ({label}) => <h2>{label}</h2>;
