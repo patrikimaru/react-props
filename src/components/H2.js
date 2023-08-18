@@ -1,0 +1,1 @@
+export const H2 = ({label}) => <h1>{label}</h1>;

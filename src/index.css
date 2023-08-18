@@ -1,0 +1,89 @@
+body{
+  min-height: 100vh;
+  background-color: #191919;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 200px 200px;
+  gap: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: red;
+}
+
+.button2 {
+  background-color: blue;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input1 {
+  border-bottom: 5px solid #595959;
+}
+
+.input2{
+  background-color: green;
+  border: 3px solid white;
+  color: white  ;
+}
+
+.input2::placeholder{
+  color: white;
+}
+
+img {
+  object-fit: cover;
+}
+
+.circular  {
+  border-radius: 100%;
+}
+
+.rounded {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .grid{grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
+}
