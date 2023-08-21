@@ -1,8 +1,8 @@
-#P2 Individual Activity Part 2
+# P2 Individual Activity Part 2
 
-#Create Components: 1 Button Component, 1 Text Field Component, and 1 H2 Component
-#In a Fragment, Call these components. Render 2 buttons, 4 Text Fields, 4 Image Tags
-#The two buttons should have these props:
+# Create Components: 1 Button Component, 1 Text Field Component, and 1 H2 Component
+# In a Fragment, Call these components. Render 2 buttons, 4 Text Fields, 4 Image Tags
+# The two buttons should have these props:
  Button 1:
 a. Red background
 b. With the text of “Cancel”
@@ -12,7 +12,7 @@ a. Blue background
 b. With the text of “Submit”
 c. Rounded corner
 
-#The four Text Fields should have these props:
+# The four Text Fields should have these props:
  Text Field 1 and Text Field 2
 a. Same id or classname
 b. Rounded corner
@@ -21,7 +21,7 @@ c. With a bottom border
 a. Green background color
 b. With a border in all corner
 
-#The four Image View should have these props:
+# The four Image View should have these props:
  Image 1 and Image 2
 a. Circular
 b. Width and height of 100px
