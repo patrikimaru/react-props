@@ -7,18 +7,18 @@ see the live link https://p2-individual-act.netlify.app/ to view it in your brow
 ### Button 1: 
 a. Red background \
 b. With the text of “Cancel” \
-c. Rounded corner \
+c. Rounded corner 
 ### Button 2: 
 a. Blue background \
 b. With the text of “Submit” \
 c. Rounded corner 
 
 ## The four Text Fields should have these props:
-### Text Field 1 and Text Field 2 \
+### Text Field 1 and Text Field 2 
 a. Same id or classname \
 b. Rounded corner \
-c. With a bottom border \
-Text Field 3 and Text Field 4 \
+c. With a bottom border 
+### Text Field 3 and Text Field 4 
 a. Green background color \
 b. With a border in all corners 
 
@@ -26,7 +26,7 @@ b. With a border in all corners
 ### Image 1 and Image 2 
 a. Circular \
 b. Width and height of 100px \
-c. Add the logo of CITE in these image element \
+c. Add the logo of CITE in these image element 
 ### Image 3 and Image 4 
 a. Square with rounded corners \
 b. Width and height of 200px \
