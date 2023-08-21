@@ -1,5 +1,5 @@
 # P2 Individual Activity Part 2
-see the live link [https://p2-individual-act.netlify.app/] to view it in your browser.
+see the live link https://p2-individual-act.netlify.app/ to view it in your browser.
 
 # Create Components: 1 Button Component, 1 Text Field Component, and 1 H2 Component
 # In a Fragment, Call these components. Render 2 buttons, 4 Text Fields, 4 Image Tags
