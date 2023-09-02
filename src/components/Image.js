@@ -1,1 +1,3 @@
-export const Image = ({src, width, height, variant})=> <img src={src} width={width} height={height} className={variant} alt="tite"/>
+export default function Image({src, width, height, variant}) {
+  return <img src={src} width={width} height={height} className={variant} alt="tite"/>
+}

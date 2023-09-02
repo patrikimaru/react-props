@@ -1,12 +1,26 @@
+:root {
+  --green: #77DD77;
+  --blue: #8ddbf8;
+  --red: #FF6961;
+}
+
 body{
   min-height: 100vh;
-  background-color: #191919;
-  color: white;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+.card {
+  display: flex;
+  gap:20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 4px solid #191919;
+  background-color: #efefef;
 }
 
 .container {
@@ -15,6 +29,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 500px;
 }
 
 .grid {
@@ -25,7 +40,13 @@ body{
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   text-align: center;
+  font-weight: 100;
+  color: gray;
 }
 
 button {
@@ -39,11 +60,11 @@ button {
 }
 
 .button1 {
-  background-color: red;
+  background-color: var(--red);
 }
 
 .button2 {
-  background-color: blue;
+  background-color: var(--blue);
 }
 
 button:hover {
@@ -59,11 +80,12 @@ input {
 }
 
 .input1 {
-  border-bottom: 5px solid #595959;
+  background-color: #f4f4f4;
+  border-bottom: 5px solid var(--green);
 }
 
 .input2{
-  background-color: green;
+  background-color: var(--green);
   border: 3px solid white;
   color: white  ;
 }
@@ -86,4 +108,10 @@ img {
 
 @media screen and (max-width: 480px) {
   .grid{grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    flex-direction: column;
+  }
 }

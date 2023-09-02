@@ -1,1 +1,3 @@
-export const H2 = ({label}) => <h2>{label}</h2>;
+export default function H2 ({children}) {
+  return <h2>{children}</h2>;
+}
