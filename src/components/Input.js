@@ -1,3 +1,10 @@
-export default function Input({placeholder, onChange, value, variant}){
-  return <input placeholder={placeholder} onChange={onChange} value={value} className={variant}/>;
-}
+const Input = (props) => 
+  <input 
+    placeholder={props.placeholder} 
+    onChange={props.onChange} 
+    value={props.value} 
+    className={props.variant}
+  />;
+
+export default Input;
+

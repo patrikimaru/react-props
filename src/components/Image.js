@@ -1,3 +1,10 @@
-export default function Image({src, width, height, variant}) {
-  return <img src={src} width={width} height={height} className={variant} alt="tite"/>
-}
+const Image = (props) => 
+  <img 
+    src={props.src}
+    width={props.width} 
+    height={props.height} 
+    className={props.variant} 
+    alt={props.alt}
+  />
+
+export default Image

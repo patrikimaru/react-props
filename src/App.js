@@ -11,7 +11,6 @@ export default function App(){
   
   return (
     <div className="card">
-
       <div className="container">
         <H2><SlStar />P2 Indiviual Act Part 2</H2>
         <div className="grid">

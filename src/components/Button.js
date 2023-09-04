@@ -1,6 +1,12 @@
-export default function Button({children, onClick, variant}) {
-  return <button onClick={onClick} className={variant}>{children}</button>
-}
+const Button = (props) => 
+  <button 
+    onClick={props.onClick} 
+    className={props.variant}>
+      {props.children}
+  </button>
+
+export default Button
+
 
 
 
